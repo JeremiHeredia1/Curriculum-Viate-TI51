@@ -1,0 +1,112 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: silver ;
+}
+.container{
+  width: 100 px;
+  margin: 0 auto;  
+} 
+
+.datacolum1{
+   position: relative;
+   top: -1px;
+    background-color: #eda900;
+    width: 10%;
+    height: 300px;
+    padding: 15% 10%;
+    margin: 20px ;
+   border:1px solid #a7781b;
+}
+
+.Nombre {
+  text-align: center;
+    
+}
+
+.img{
+  position: relative;
+  width: 100%;
+  padding: 4px;
+  border-radius: 300cm;
+  border: 1px solid black;
+  background-position: 20% top;
+  border-top-left-radius: 44%;
+}
+
+
+
+.name{
+  position: absolute;
+  top: 100px;
+  left: 20px;
+  font-size: 14px;
+}
+
+.inf{
+    position: absolute;
+    
+}
+
+.old{ 
+  background-color: #ededed;
+  text-align: center;
+  position:relative;
+  left: -50px;
+  right: 20px;
+  padding-top: 0px;
+  padding-right: 10px;
+  padding-bottom: 0px;
+  padding-left: 1px;
+  font-size: 13px;
+  border-radius: 30%;
+
+}
+.dateBirth{
+  background-color: aliceblue;
+  
+  position:relative;
+  left: -50px;
+  padding-top: 0px;
+  padding-right: 10px;
+  padding-bottom: 0px;
+  padding-left: 1px;
+  font-size: 12px;
+  border-radius: 20%;
+}
+
+
+.grid {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  gap: 15px;
+}
+.cuadro-blanco{
+  width: 880px;
+  height: 645px;
+  background-color: antiquewhite;
+  margin-left: 433px;
+  margin-top: -727px;
+  padding: 0 15px 60px 14px;
+}
+
+.cuadro-verde {
+  background-color: silver;
+  margin-right: 15px;
+  padding-bottom: 0.5px;
+  
+}
+
+.titulos {
+  text-align: center;
+  margin-bottom: 2px;
+  border-bottom: 3px solid #dddddd;;
+  
+}
+
+.bold-span {
+  font-weight: bold;
+}
+
+
+

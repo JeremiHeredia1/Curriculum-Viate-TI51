@@ -1,0 +1,53 @@
+{
+	"nombre": "Jeremi Josue Heredia Gordillo",
+	"fechaNacimiento": "22/06/2002",
+	"Resumen": "Comprometido y responsable con el trabajo. Ivestigo mis dudas para no quedarme con estas",
+	"telefono": "984 876 4905",
+	"correo":"2002028@utrivieramaya.edu.mx",
+	"puestoSolicitado": "Docente" ,
+	"lenguages":[
+		"php",
+		"javascript",
+		"html",
+		"css"
+	],
+	"baseDeDatos":[
+		"Mysql",
+		"Sql Server",
+		"Postgres"
+	],
+	"paqueteria":[
+		"excel",
+		"word",
+		"powerPoint"
+	],
+	
+	"experienciaLaboral":[
+		{
+			"empresa": "UTRM",
+			"Puesto": "Docente",
+			"fechaIngreso": "07/05/2022",
+			"fechaTermino": "08/05/2022",
+			"responsabilidades":[
+						"Dar clases",
+						"Creación de plan de estudio",
+						"Capacitar personal"
+			]
+		},
+		{
+			"empresa": "UQROO",
+			"Puesto": "Docente",
+			"fechaIngreso": "09/05/2022",
+			"fechaTermino": "10/05/2022"
+		}
+
+    ],
+	"educacion":[
+		{
+			"escuela": "Universidad tecnologica de la Riviera Maya",
+			"gradoEstudio": "Universitario",
+			"fechaIngreso": "01/08/2020",
+			"fechaTermino": "01/08/2024"
+		}
+	]
+}
