@@ -1,4 +1,8 @@
 var jsonUrl = 'https://raw.githubusercontent.com/JeremiHeredia1/Curriculum-Viate-TI51/master/Info.json';
+
+if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register("/service-worker.js");
+}
 function getData()
 {
     fetch(jsonUrl)
@@ -9,7 +13,7 @@ function getData()
 
 curriculumTemplate = `
 
-<div class="cuadro-blanco" id="datos">
+
 <div class="grid">
     <div class="columna-derecha">
 
@@ -77,7 +81,7 @@ curriculumTemplate = `
         </div>
     </div>
 </div>
-</div>
+
 
 `;
 
